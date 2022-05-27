@@ -1,0 +1,21 @@
+.news {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.news h4 {
+    color: #9c8e0e;
+    margin-bottom: 20px;
+    align-self: center;
+    
+}
+
+.newsSelect {
+    display: flex;
+    gap: 3rem;
+    overflow-x: auto;
+
+}
+
+

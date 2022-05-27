@@ -1,0 +1,48 @@
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos h4 {
+    color: #9c8e0e;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px;
+}
+
+.photosSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photosSelect h6{
+    font-size: 12px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.photos button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4e6952;
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+
+@media screen and (max-width: 600px){
+    .photos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+}
+    

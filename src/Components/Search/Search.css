@@ -1,0 +1,30 @@
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.searchBar input {
+    width: 300px;
+    border: 1px solid #ececec;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.searchBar button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4e6952;
+    font-size: 15px;
+    font-weight: 600;
+    color: #f0f8ff;
+    margin-left: 20px;
+    border: none;
+    width: 100px;
+}
+
+.searchBar button:focus {
+    border: 1px solid #a8a6a6;
+}

@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.pages { 
+    display: flex;
+    justify-content: center;
+}
+
+.pages p {
+    margin: 0 20px;
+    font-weight: 200;
+}
+
+.register button { 
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4e6952;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    border: none;
+}
+
+
+
+.logo {
+    margin-left: 50px;
+}
+
+.hamButton {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .pages {
+        display: none;
+    }
+
+    .register {
+        display: none;
+    }
+
+    .hamButton {
+        display: flex;
+        margin-right: 20px;
+        height: 25px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+}
