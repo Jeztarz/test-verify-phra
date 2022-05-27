@@ -2,7 +2,7 @@ import "./Photos.css";
 function Photos() {
   return (
     <div className="photos">
-      <h4>คลั่งพระเครื่อง</h4>
+      <h4>คลังพระเครื่อง</h4>
 
       <div className="photosSelect">
         <div>

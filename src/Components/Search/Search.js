@@ -3,7 +3,14 @@ import Button from "react-bootstrap/Button";
 function Search() {
   return (
     <div className="searchBar">
-      <input type="search" placeholder="Search" />
+
+<form class="form-search form-inline">
+<input type="search" class="search-query" placeholder="Search" />
+    </form>
+
+
+      
+
       <Button variant="primary" size="lg">
         ค้นหา
       </Button>

@@ -1,41 +1,36 @@
+import './Cover.css'
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import Carousel from 'react-bootstrap/Carousel'
-import { useState } from 'react';
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
+
 function Cover() {
-    const [index, setIndex] = useState(0);
+  return (
+    <>
+      <Swiper
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+        <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
+      </Swiper>
+    </>
 
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
 
-    return (
-
-        <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="Images/cover.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="Images/cover.jpg"
-          alt="Second slide"
-        />
-
-        
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="Images/cover.jpg"
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
-    )
+  );
 }
 
 export default Cover;

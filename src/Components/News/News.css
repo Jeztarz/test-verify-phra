@@ -1,21 +1,29 @@
 .news {
     display: flex;
-    margin: 20px;
     flex-direction: column;
+    margin: 20px;
 }
 
 .news h4 {
     color: #9c8e0e;
     margin-bottom: 20px;
     align-self: center;
-    
-}
-
-.newsSelect {
-    display: flex;
-    gap: 3rem;
-    overflow-x: auto;
-
 }
 
 
+
+.swiper-container {
+    width: 480px;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .swiper-container {
+      width: 700px;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .swiper-container {
+      width: 800px;
+    }
+  }

@@ -9,7 +9,7 @@
 .address {
     margin-left: 50px;
     margin-top: 10px;
-    
+    width: 300px;
 }
 
 .address p {
@@ -20,6 +20,8 @@
     font-weight: 200;
     margin-top: 10px;
     display: flex;
+    width: 300px;
+    text-align: center;
 }
 
 .menu p {
@@ -29,6 +31,8 @@
 .copyright {
     margin-right: 50px;
     align-self: flex-end;
+    text-align: end;
+    width: 300px;
 }
 
 @media screen and (max-width: 700px) {
@@ -38,11 +42,13 @@
     }
     .address {
         margin: 15px;
+        width: 40%;
     }
+
     .menu {
         display: flex;
         flex-direction: column;
-
+        width: 50%;
     }
 
     .menu p {
@@ -51,5 +57,7 @@
 
     .copyright {
         margin: 15px;
+        align-self: flex-end;
+        text-align: start;
     }
 }

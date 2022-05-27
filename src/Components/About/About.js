@@ -13,6 +13,8 @@ function About() {
 
             <button>เพิ่มเติม</button>
             </div>
+
+            
             <div>
                 <img src='Images/about.jpg' alt='about' />
             </div>

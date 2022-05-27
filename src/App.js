@@ -9,7 +9,7 @@ import Search from "./Components/Search/Search";
 
 function App() {
   return (
-    <div className='home'>
+    <div>
       <Navbar />
       <Cover />
       <Search />
@@ -17,6 +17,7 @@ function App() {
       <About />
       <News />
       <Footer />
+      
     </div>
   );
 }
