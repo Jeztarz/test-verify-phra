@@ -13,12 +13,13 @@ function Cover() {
   return (
     <>
       <Swiper
+        spaceBetween={5}
+        slidesPerView={1}
         pagination={{
-          dynamicBullets: true,
+          clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
-      >
+        className="mySwiper">
         <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
         <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>
         <SwiperSlide><img src="Images/cover.jpg" alt="First slide" className='img'/></SwiperSlide>

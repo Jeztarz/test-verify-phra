@@ -12,10 +12,13 @@
 }
 
 .photosSelect {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2pc;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 .photosSelect h6{
@@ -37,11 +40,21 @@
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .photos {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .photosSelect {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        justify-items: stretch;
+        align-items: stretch;
     }
 
     

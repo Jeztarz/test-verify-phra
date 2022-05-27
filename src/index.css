@@ -11,6 +11,7 @@ body {
   font-family: 'Mitr', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
 li {
@@ -33,3 +34,4 @@ a {
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #ececec;
 }
+

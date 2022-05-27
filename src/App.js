@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import News from "./Components/News/News";
 import Photos from "./Components/Photos/Photos";
 import Search from "./Components/Search/Search";
+// import "swiper/css/bundle";
 
 function App() {
   return (
